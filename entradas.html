@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sabor & Arte</title>
+  </head>
+  <body>
+    <header>
+      <h1>SABORES DA VILA</h1>
+      <p>Culinária contemporânea com toques tradicionais</p>
+      <div class="info">
+        <span>📍 Avenida Central, 987 - Centro</span>
+        <span>📞 (11) 99999-9999</span>
+        <span>🕒 Ter-Dom: 19h às 00h</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="menu-section">
+        <h2>Nosso Cardápio</h2>
+        <p class="subtitle">Experimente nossas deliciosas opções preparadas com ingredientes selecionados</p>
+
+        <div class="filters">
+          <a href="index.html"><button data-category="todos">Todos</button></a>
+          <a href="entradas.html"><button class="active" data-category="entradas">Entradas</button></a>
+          <a href="pratos-principais.html"><button data-category="principais">Pratos Principais</button></a>
+          <a href="sobremesas.html"><button data-category="sobremesas">Sobremesas</button></a>
+          <a href="bebidas.html"><button data-category="bebidas">Bebidas</button></a>
+        </div>
+          <div class="container">
+          <div class="card" data-category="entradas">
+            <img src="./imagens/salada-ceasar.jpeg" alt="Salada Caesar">
+            <div class="card-content">
+              <h3>Salada Caesar <span class="price">R$ 35,90</span></h3>
+              <p>Folhas crocantes, frango grelhado, parmesão e molho caesar.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="entradas">
+            <img src="./imagens/bruschetta-de-tomate.jpg" alt="Bruschetta de Tomate">
+            <div class="card-content">
+              <h3>Bruschetta de Tomate <span class="price">R$ 28,90</span></h3>
+              <p>Pão tostado com tomate, manjericão e azeite extravirgem.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="entradas">
+            <img src="./imagens/pastelzinho-de-carne.jpg" alt="Pastel de carne">
+            <div class="card-content">
+              <h3>Pastel de carne <span class="price">R$ 30,90</span></h3>
+              <p>Pastel frito com carne e tempero</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="entradas">
+            <img src="./imagens/batata-frita.jpeg" alt="Batata frita">
+            <div class="card-content">
+              <h3>Batata frita <span class="price">R$ 22,90</span></h3>
+              <p>Batata frita com óleo vegetal</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="entradas">
+            <img src="./imagens/macaxeira-frita.jpg" alt="Macaxeira frita">
+            <div class="card-content">
+              <h3>Macaxeira frita <span class="price">R$ 21,90</span></h3>
+              <p>Macaxeira frita com óleo vegetal</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <!-- Botão WhatsApp Fixo -->
+          <a href="https://wa.me/5511999999999" class="whatsapp-button" target="_blank" aria-label="Fale conosco no WhatsApp">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>© 2025 Sabores da Vila - Todos os direitos reservados</footer>
+  </body>
+</html>
+

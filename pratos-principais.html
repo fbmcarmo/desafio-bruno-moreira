@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sabor & Arte</title>
+  </head>
+  <body>
+    <header>
+      <h1>SABORES DA VILA</h1>
+      <p>Culinária contemporânea com toques tradicionais</p>
+      <div class="info">
+        <span>📍 Avenida Central, 987 - Centro</span>
+        <span>📞 (11) 99999-9999</span>
+        <span>🕒 Ter-Dom: 19h às 00h</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="menu-section">
+        <h2>Nosso Cardápio</h2>
+        <p class="subtitle">Experimente nossas deliciosas opções preparadas com ingredientes selecionados</p>
+
+        <div class="filters">
+          <a href="index.html"><button data-category="todos">Todos</button></a>
+          <a href="entradas.html"><button data-category="entradas">Entradas</button></a>
+          <a href="pratos-principais.html"><button class="active" data-category="principais">Pratos Principais</button></a>
+          <a href="sobremesas.html"><button data-category="sobremesas">Sobremesas</button></a>
+          <a href="bebidas.html"><button data-category="bebidas">Bebidas</button></a>
+        </div>
+
+        <div class="menu-grid">
+          <div class="card" data-category="principais">
+            <img src="./imagens/risoto-de-cogumelos.jpg" alt="Risoto de Cogumelos">
+            <div class="card-content">
+              <h3>Risoto de Cogumelos <span class="price">R$ 42,90</span></h3>
+              <p>Arroz cremoso com cogumelos frescos, parmesão e vinho branco.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="principais">
+            <img src="./imagens/file-ao-molho-madeira.jpg" alt="Filé ao Molho Madeira">
+            <div class="card-content">
+              <h3>Filé ao Molho Madeira <span class="price">R$ 49,90</span></h3>
+              <p>Filé mignon ao molho madeira com purê de batata rústico.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="principais">
+            <img src="./imagens/lasanha-de-frango.jpg" alt="Lasanha de Frango">
+            <div class="card-content">
+              <h3>Lasanha de Frango <span class="price">R$ 36,50</span></h3>
+              <p>Camadas de massa, frango desfiado, molho branco e queijo.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="principais">
+            <img src="./imagens/salmao-grelhado.jpeg" alt="Salmão Grelhado">
+            <div class="card-content">
+              <h3>Salmão Grelhado <span class="price">R$ 58,00</span></h3>
+              <p>Posta de salmão com legumes ao vapor e molho de ervas.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="principais">
+            <img src="./imagens/penne-ao-pesto.jpg" alt="Penne ao Pesto">
+            <div class="card-content">
+              <h3>Penne ao Pesto <span class="price">R$ 31,90</span></h3>
+              <p>Macarrão penne com molho pesto caseiro e queijo parmesão.</p>
+            </div>
+          </div>
+
+        <div>
+          <!-- Botão WhatsApp Fixo -->
+          <a href="https://wa.me/5511999999999" class="whatsapp-button" target="_blank" aria-label="Fale conosco no WhatsApp">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>© 2025 Sabores da Vila - Todos os direitos reservados</footer>
+  </body>
+</html>
+

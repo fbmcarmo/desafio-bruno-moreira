@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sabor & Arte</title>
+  </head>
+  <body>
+    <header>
+      <h1>SABORES DA VILA</h1>
+      <p>Culinária contemporânea com toques tradicionais</p>
+      <div class="info">
+        <span>📍 Avenida Central, 987 - Centro</span>
+        <span>📞 (11) 99999-9999</span>
+        <span>🕒 Ter-Dom: 19h às 00h</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="menu-section">
+        <h2>Nosso Cardápio</h2>
+        <p class="subtitle">Experimente nossas deliciosas opções preparadas com ingredientes selecionados</p>
+
+        <div class="filters">
+          <a href="index.html"><button data-category="todos">Todos</button></a>
+          <a href="entradas.html"><button data-category="entradas">Entradas</button></a>
+          <a href="pratos-principais.html"><button data-category="principais">Pratos Principais</button></a>
+          <a href="sobremesas.html"><button data-category="sobremesas">Sobremesas</button></a>
+          <a href="bebidas.html"><button class="active" data-category="bebidas">Bebidas</button></a>
+        </div>
+        <div class="container">
+          <div class="card" data-category="bebidas">
+            <img src="./imagens/suco-de-frutas.jpeg" alt="Suco de Frutas">
+            <div class="card-content">
+              <h3>Suco de Frutas <span class="price">R$ 9,50</span></h3>
+              <p>Sabores naturais de laranja, manga, melancia ou abacaxi.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="bebidas">
+            <img src="./imagens/cafe-expresso.jpg" alt="Café Espresso">
+            <div class="card-content">
+              <h3>Café Espresso <span class="price">R$ 6,00</span></h3>
+              <p>Café encorpado e aromático preparado na hora.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="bebidas">
+            <img src="./imagens/mojito.jpg" alt="Mojito">
+            <div class="card-content">
+              <h3>Mojito <span class="price">R$ 18,00</span></h3>
+              <p>Coquetel refrescante de rum, hortelã, limão e água com gás.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        <div>
+          <!-- Botão WhatsApp Fixo -->
+          <a href="https://wa.me/5511999999999" class="whatsapp-button" target="_blank" aria-label="Fale conosco no WhatsApp">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>© 2025 Sabores da Vila - Todos os direitos reservados</footer>
+  </body>
+</html>
+

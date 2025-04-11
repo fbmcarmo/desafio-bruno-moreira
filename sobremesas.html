@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sabor & Arte</title>
+  </head>
+  <body>
+    <header>
+      <h1>SABORES DA VILA</h1>
+      <p>Culinária contemporânea com toques tradicionais</p>
+      <div class="info">
+        <span>📍 Avenida Central, 987 - Centro</span>
+        <span>📞 (11) 99999-9999</span>
+        <span>🕒 Ter-Dom: 19h às 00h</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="menu-section">
+        <h2>Nosso Cardápio</h2>
+        <p class="subtitle">Experimente nossas deliciosas opções preparadas com ingredientes selecionados</p>
+
+        <div class="filters">
+          <a href="index.html"><button data-category="todos">Todos</button></a>
+          <a href="entradas.html"><button data-category="entradas">Entradas</button></a>
+          <a href="pratos-principais.html"><button data-category="principais">Pratos Principais</button></a>
+          <a href="sobremesas.html"><button class="active" data-category="sobremesas">Sobremesas</button></a>
+          <a href="bebidas.html"><button data-category="bebidas">Bebidas</button></a>
+        </div>
+        <div class="container">
+          <div class="card" data-category="sobremesas">
+            <img src="./imagens/petit-gateau.jpeg" alt="Petit Gâteau">
+            <div class="card-content">
+              <h3>Petit Gâteau <span class="price">R$ 22,00</span></h3>
+              <p>Bolo de chocolate com recheio quente e sorvete de creme.</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="sobremesas">
+            <img src="./imagens/sorvete.jpeg" alt="Sorvete">
+            <div class="card-content">
+              <h3>Sorvete <span class="price">R$ 12,90</span></h3>
+              <p>Receita de sorvete caseiro</p>
+            </div>
+          </div>
+
+          <div class="card" data-category="sobremesas">
+            <img src="./imagens/pudim-de-leite.png" alt="Pudim de Leite">
+            <div class="card-content">
+              <h3>Pudim de Leite <span class="price">R$ 14,90</span></h3>
+              <p>Receita tradicional com calda de caramelo feita na hora.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <!-- Botão WhatsApp Fixo -->
+          <a href="https://wa.me/5511999999999" class="whatsapp-button" target="_blank" aria-label="Fale conosco no WhatsApp">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>© 2025 Sabores da Vila - Todos os direitos reservados</footer>
+  </body>
+</html>
+
